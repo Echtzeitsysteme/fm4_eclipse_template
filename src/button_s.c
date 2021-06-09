@@ -3,7 +3,7 @@
 #include "pdl_header.h"
 #include "s6e2ccxj.h"
 #include "pins.h"
-#include "Timer.h"
+#include "timer.h"
 #include "diag/Trace.h"
 
 static uint8_t ledStatus;
