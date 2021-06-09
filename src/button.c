@@ -6,6 +6,10 @@
 #include "timer.h"
 #include "diag/Trace.h"
 
-void ButtonMain() {
+void ButtonToggleBlueLED() {
 
+}
+
+void ButtonHoldBlueLEDOn() {
+    
 }

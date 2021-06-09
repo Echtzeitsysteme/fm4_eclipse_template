@@ -5,6 +5,10 @@
 #include "pdl_header.h"
 #include "s6e2ccxj.h"
 
-void ButtonMain();
+void ButtonToggleBlueLED();
+void ButtonHoldBlueLEDOn();
+
+void ButtonToggleBlueLED_s();
+void ButtonHoldBlueLEDOn_s();
 
 #endif
