@@ -61,8 +61,8 @@ static void initLED_s() {
 	BUTTON_DDR &= ~(1 << BUTTON_PIN);
 	BUTTON_PCR |= (1 << BUTTON_PIN);
 
-	LED_BLUE_DDR |= (1 << LED_ORANGE_PIN); // Configure blue led as output pin
-	LED_BLUE_DOR |= (1 << LED_ORANGE_PIN); // Switch LED off
+	LED_BLUE_DDR |= (1 << LED_BLUE_PIN); // Configure blue led as output pin
+	LED_BLUE_DOR |= (1 << LED_BLUE_PIN); // Switch LED off
 
 }
 
@@ -77,7 +77,7 @@ static void toggleBlueLED_s() {
 }
 
 static void setBlueLED_s(uint8_t status) {
-	if (status) LED_BLUE_DOR &= ~(1 << LED_ORANGE_PIN);
-	else LED_BLUE_DOR |= (1 << LED_ORANGE_PIN);
+	if (status) LED_BLUE_DOR &= ~(1 << LED_BLUE_PIN);
+	else LED_BLUE_DOR |= (1 << LED_BLUE_PIN);
 }
 

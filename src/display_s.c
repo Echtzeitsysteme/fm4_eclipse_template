@@ -39,8 +39,8 @@ void initCursor_s() {
 	cursorX = 0;
 	cursorY = 0;
 	textColor = WHITE;
-	textSize = 1;
-	textBackground = RED;
+	textSize = 2;
+	textBackground = BLACK;
 }
 
 void setCursor_s(const int16_t x, const int16_t y) {
